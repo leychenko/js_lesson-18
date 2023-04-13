@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>task_1</title>
+  </head>
+  <body>
+    <main class="page1">
+      <div class="page1__container">
+        <h2>Задача №1</h2>
+        <p class="text">Розробити калькулятор</p>
+        <div><img src="../img/Screenshot_1.jpg" alt="" /></div>
+        <div class="block">
+          <div class="block__line">
+            <label class="block__label" for="first">First number </label>
+            <input class="inp"
+              autocomplete="off"
+              type="number"
+              placeholder="0"
+              id="first"
+              value=""
+            />
+          </div>
+          <div class="block__line">
+            <label class="block__label" for="second">Second number </label>
+            <input class="inp"
+              autocomplete="off"
+              type="number"
+              placeholder="0"
+              id="second"
+              value=""
+            />
+          </div>
+          <div class="actions">
+            <button type="button" class="button button--1">Додати</button>
+            <button type="button" class="button button--1">Відняти</button>
+            <button type="button" class="button button--1">
+              Помножити
+            </button>
+            <button type="button" class="button button--1">
+              Поділити
+            </button>
+          </div>
+          <div class="block__line">
+            <label class="block__label" for="result"
+              >Результат
+            </label>
+				<input class="inp inp--result"
+                autocomplete="off"
+                type="number"
+                placeholder="0"
+                id="result"
+                value=""
+              />
+          </div>
+        </div>
+	
+        <script src="scriprt1.js"></script>
+      </div>
+    </main>
+  </body>
+</html>

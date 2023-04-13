@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>task_7</title>
+  </head>
+  <body>
+    <main class="page">
+      <div class="page__container">
+        <h2>Задача №7</h2>
+        <p class="task7">
+          Подорож складається з 3 етапів. На кожному етапі користувач може
+          вибрати один з видів транспорту (авто, автобус, літак - випадаючий
+          список), харчування (сніданок, обід, вечеря – checkbоx) та одного з
+          3-х гідів(використати - radio buttons). Ціни визначте самі.
+          Підрахувати загальну вартість.
+        </p>
+        <div class="trip-container">
+			<h2>Єтап 1</h2>
+          <div class="trip-menu">
+          	<div class="box">
+	            <select id="transport1">
+	              <option value="200">Auto</option>
+	              <option value="450">Bus</option>
+	              <option value="2000">Plane</option>
+	            </select>
+	          </div>
+	          <div class="food1">
+	            <input type="checkbox" id="breakfast1" value="120"/>breakfast
+	            <input type="checkbox" id="lunch1" value="200"/>lunch
+	            <input type="checkbox" id="dinner1" value="220"/>dinner
+	          </div>
+				 <div>
+	            <input name="guide1" type="radio" id="Maks1" value="1000" />Maks
+	            <input name="guide1" type="radio" id="Den1" value="400"/>Den
+	            <input name="guide1" type="radio" id="Tommy1" value="330"/>Tommy
+	          </div>
+          </div>
+			<h2>Єтап 2</h2>
+			 <div class="trip-menu">
+          	<div class="box">
+	            <select id="transport2">
+	              <option value="200">Auto</option>
+	              <option value="450">Bus</option>
+	              <option value="2000">Plane</option>
+	            </select>
+	          </div>
+	          <div class="food1">
+	            <input type="checkbox" id="breakfast2" value="90"/>breakfast
+	            <input type="checkbox" id="lunch2" value="180"/>lunch
+	            <input type="checkbox" id="dinner2" value="260"/>dinner
+	          </div>
+				 <div>
+	            <input name="guide2" type="radio" id="Maks2" value="550" />Maks
+	            <input name="guide2" type="radio" id="Den2" value="960"/>Den
+	            <input name="guide2" type="radio" id="Tommy2" value="800"/>Tommy
+	          </div>
+          </div>
+			 	<h2>Єтап 3</h2>
+			 <div class="trip-menu">
+          	<div class="box">
+	            <select id="transport3">
+	              <option value="200">Auto</option>
+	              <option value="450">Bus</option>
+	              <option value="2000">Plane</option>
+	            </select>
+	          </div>
+	          <div class="food1">
+	            <input type="checkbox" id="breakfast3" value="50"/>breakfast
+	            <input type="checkbox" id="lunch3" value="110"/>lunch
+	            <input type="checkbox" id="dinner3" value="250" />dinner
+	          </div>
+				 <div>
+					 <input name="guide3" type="radio" id="Maks3" value="2000" />Maks
+	            <input name="guide3" type="radio" id="Den3" value="1300"/>Den
+	            <input name="guide3" type="radio" id="Tommy3" value="1950"/>Tommy
+	          </div>
+          </div>
+			 <div class="actionsTrip">
+				<button type="button" class="button">Розрахувати</button>
+				 <span id="resultPriceTrip"></span>
+			 </div>
+        </div>
+        <script src="scriprt7.js"></script>
+      </div>
+    </main>
+  </body>
+</html>
